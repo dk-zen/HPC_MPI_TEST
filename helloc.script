@@ -1,0 +1,8 @@
+#BSUB -L /bin/bash
+#BSUB -J helloc
+#BSUB -q normal
+#BSUB -n 37
+#BSUB -o %J.out
+#BSUB -e %J.err
+
+mpirun ./helloc
