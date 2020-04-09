@@ -1,2 +1,2 @@
 # mpitest
-test the helloworld c or fortran mpi code
+Test the HPC with the MPI codes named hello_world.c and hello_world.f.
